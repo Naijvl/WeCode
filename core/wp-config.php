@@ -22,7 +22,7 @@ if ( ! defined( 'WECODE_ROOT' ) ) {
     define( 'WECODE_ROOT', dirname( dirname( __FILE__ ) ) );
 }
 
-define('FATWP_URL_BASE', 'wecode.com');
+define('WC_URL_BASE', 'wecode.com');
 
 
 define('WP_CONTENT_DIR', WECODE_ROOT . '/assets');

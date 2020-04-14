@@ -1,0 +1,41 @@
+@import "variables";
+
+.ac-toggle input:checked+.ac-toggle__switch {
+    background-color: $brand-primary !important;
+}
+
+.aceditable .aceditable__button.-primary {
+    background-color: $brand-primary !important;
+}
+
+table.acp-ie-table tr:hover .acp-ie-controls__item {
+    box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.4) !important;
+}
+
+.query-builder .rules-group-container .rules-group-body .rule-container .rule-header button:first-child {
+    background-color: $brand-primary !important;
+}
+
+.query-builder .rules-group-container .rules-group-body .rule-container {
+    box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.4) !important;
+}
+
+
+/*
+| Oasis Workflow
+|
+*/
+
+.ac-edit-popper {
+    box-shadow: 0 1px 5px -1px rgba(0,0,0,0.4) !important;
+    border-radius: 5px !important;
+    border: 0 none !important;
+}
+
+#simplemodal-overlay {
+    z-index: 10001 !important;
+}
+
+#simplemodal-container {
+    z-index: 10002 !important;
+}

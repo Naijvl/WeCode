@@ -55,9 +55,16 @@ mix.options({
     });
 
 
-// mix.sass('assets/themes/la/assets/sass/app.scss', path + '/press/css')
-// 	.copy('assets/themes/la/assets/js/app.js', path + '/press/js')
-// ;
+mix.js('assets/plugins/basic/js/wc-admin.js', path + '/press/admin/js')
+
+	.sass('assets/plugins/basic/sass/admin.scss', path + '/press/admin/css')
+	.sass('assets/plugins/basic/sass/button.scss', path + '/press/admin/css')
+	.sass('assets/plugins/basic/sass/login.scss', path + '/press/admin/css')
+
+	.sass('assets/themes/WeCode/assets/sass/app.scss', path + '/press/css')
+	.copy('assets/themes/WeCode/assets/js/app.js', path + '/press/js')
+;
+
 
 
 if (mix.inProduction()) {

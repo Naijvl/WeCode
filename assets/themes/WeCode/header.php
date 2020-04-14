@@ -1,12 +1,11 @@
-<?php?>
 <!DOCTYPE html>
 <html  <?php language_attributes(); ?> class="no-js">
     <head>
         <meta charset="UTF-8">
         <title><?php echo trim(wp_title('',0)); if(!is_home()) echo ' - '; bloginfo( 'name' ); ?></title>
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/font/font.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/404.css" type="text/css" media="screen" />
+
+<!--        <link rel="stylesheet" href="--><?//= wc_asset('press/font/font.css'); ?><!--" type="text/css" media="screen" />-->
+<!--        <link rel="stylesheet" href="--><?//= wc_asset('press/css/404.css'); ?><!--" type="text/css" media="screen" />-->
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
@@ -14,7 +13,7 @@
         <header>
             <div class="wrapper">
                 <div id="logo">
-                    <a href="/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt=""></a>
+<!--                    <a href="/"><img src="--><?//= wc_asset('images/logo.png'); ?><!--" alt=""></a>-->
                     <span id="logoline"></span>
                 </div>
 

@@ -1,0 +1,60 @@
+
+// Body
+$body-bg: #f4f4f4;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #0569f9;
+$brand-secondary: #51504f;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$icon-font-path: "../fonts/";
+$font-family-sans-serif: "Microsoft YaHei", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #333;
+
+// Navbar
+$navbar-default-bg: $brand-primary;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+//$input-border: lighten($text-color, 40%);
+//$input-border-focus: lighten($brand-primary, 25%);
+//$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+
+
+$zindex-topbar: 1000;
+$zindex-in-content: 900;
+
+$panel-bg: white;
+$panel-text-normal: lighten(desaturate($brand-primary, 45%), 20%);
+
+$adminbar-link-color: white;
+$adminbar-bg: $brand-primary;
+
+$admin-link-primary-normal: #333;
+$admin-link-primary-accent: $brand-primary;
+
+$adminmenu-bg: white;
+$adminmenu-expanded-bg: lighten($brand-primary, 50%);
+$adminmenu-submenu-hover-bg: white;
+
+$adminbar-original-height: 32px;
+$adminbar-height: 55px;

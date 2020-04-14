@@ -2,10 +2,11 @@
         <div id="back" title="返回顶部">
             <i class="ico ico-back"></i>
         </div>
-		<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.8.3.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/js/jquery.SuperSlide.2.1.1.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/js/jquery.lazyload.js"></script>
-        <script src="<?php bloginfo('template_url'); ?>/js/common.js"></script>
+<!--		<script src="--><?//= wc_asset('press/libs/jquery-1.8.3.js') ?><!--"></script>-->
+<!--        <script src="--><?//= wc_asset('press/libs/jquery.SuperSlide.2.1.1.js') ?><!--"></script>-->
+<!--        <script src="--><?//= wc_asset('press/libs/jquery.lazyload.js') ?><!--"></script>-->
+<!--        <script src="--><?//= wc_asset('press/js/app.js') ?><!--"></script>-->
+
         
         <script>
             jQuery(".slidebox").slide({mainCell:".bd ul",autoPlay:true,effect:"left"});

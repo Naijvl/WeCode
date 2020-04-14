@@ -1,0 +1,35 @@
+
+#adminmenu {
+    .menu-top.current {
+        > a:hover .wp-menu-image:before,
+        .wp-menu-image:before {
+            color: $adminmenu-submenu-hover-bg;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 960px) {
+    #adminmenu {
+        .wp-submenu a,
+        a.menu-top {
+            font-size: 14px;
+            line-height: 2em;
+        }
+
+        .wp-menu-image:before {
+            padding-top: 11px;
+        }
+
+        //.opensub .wp-submenu a {
+        //    font-size: 13px;
+        //    line-height: 1.5em;
+        //    transition-duration: 0s;
+        //}
+        .wp-has-current-submenu ul > li > a {
+            padding-left: 36px;
+        }
+    }
+}
+
