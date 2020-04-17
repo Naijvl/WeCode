@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <title><?php echo trim(wp_title('',0)); if(!is_home()) echo ' - '; bloginfo( 'name' ); ?></title>
 
-<!--        <link rel="stylesheet" href="--><?//= wc_asset('press/font/font.css'); ?><!--" type="text/css" media="screen" />-->
-<!--        <link rel="stylesheet" href="--><?//= wc_asset('press/css/404.css'); ?><!--" type="text/css" media="screen" />-->
+        <link rel="stylesheet" href="<?= wc_asset('press/font/font.css'); ?>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?= wc_asset('press/css/404.css'); ?>" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?= wc_asset('press/css/app.css'); ?>" type="text/css" media="screen" />
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
@@ -13,7 +14,7 @@
         <header>
             <div class="wrapper">
                 <div id="logo">
-<!--                    <a href="/"><img src="--><?//= wc_asset('images/logo.png'); ?><!--" alt=""></a>-->
+                    <a href="/"><img src="<?= wc_asset('press/images/logo.png'); ?>" alt=""></a>
                     <span id="logoline"></span>
                 </div>
 
@@ -40,7 +41,7 @@
 
                         <div id="menu">
                             <ul>
-                                <li><a href="http://hexiboy.com/ucenter">个人中心</a></li>
+                                <li><a href="<?= home_url() ?>/ucenter">个人中心</a></li>
                                 <?php 
                                     global $current_user;
                                     if(!empty($current_user->roles) && in_array('administrator', $current_user->roles)) {

@@ -2,10 +2,10 @@
         <div id="back" title="返回顶部">
             <i class="ico ico-back"></i>
         </div>
-<!--		<script src="--><?//= wc_asset('press/libs/jquery-1.8.3.js') ?><!--"></script>-->
-<!--        <script src="--><?//= wc_asset('press/libs/jquery.SuperSlide.2.1.1.js') ?><!--"></script>-->
-<!--        <script src="--><?//= wc_asset('press/libs/jquery.lazyload.js') ?><!--"></script>-->
-<!--        <script src="--><?//= wc_asset('press/js/app.js') ?><!--"></script>-->
+		<script src="<?= wc_asset('libs/jquery-1.8.3.js') ?>"></script>
+        <script src="<?= wc_asset('libs/jquery.SuperSlide.2.1.1.js') ?>"></script>
+        <script src="<?= wc_asset('libs/jquery.lazyload.js') ?>"></script>
+        <script src="<?= wc_asset('press/js/app.js') ?>"></script>
 
         
         <script>
@@ -13,7 +13,7 @@
         </script>
         <script type="text/javascript" charset="utf-8">
             $(function() {
-                $("img.lazy").lazyload({effect: "fadeIn",placeholder: "<?php bloginfo('template_url'); ?>/images/lazydefault.png"});
+                $("img.lazy").lazyload({effect: "fadeIn",placeholder: "<?= wc_asset('press/images/lazydefault.png') ?>"});
 
 
                 $(document).ready(function(){ 

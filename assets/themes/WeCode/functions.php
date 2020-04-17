@@ -78,7 +78,7 @@ function catch_that_image() {
 	//如果文章无图片，获取自定义图片
 	$lazy = " class='lazy' width='90' height='90' ";
 	if(empty($first_img)){ //Defines a default image
-		$first_img = '<img src="http://hexiboy.com/wp-content/themes/WeCode/images/post-random/default.png" />';
+		$first_img = '<img src="' . wc_asset('press/images/post-random/default.png') . '" />';
 	 
 	//请自行设置一张default.png图片
 	}

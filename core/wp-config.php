@@ -22,11 +22,11 @@ if ( ! defined( 'WECODE_ROOT' ) ) {
     define( 'WECODE_ROOT', dirname( dirname( __FILE__ ) ) );
 }
 
-define('WC_URL_BASE', 'wecode.com');
+define('WC_URL_BASE', 'wecode.local');
 
 
 define('WP_CONTENT_DIR', WECODE_ROOT . '/assets');
-define('WP_CONTENT_URL', 'http://www.wecode.com/assets');
+define('WP_CONTENT_URL', 'http://wecode.local/assets');
 
 
 
